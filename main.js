@@ -164,7 +164,7 @@ const updateAnswerTracker = status => {
 
 const validate = () => {
     if (!optionElements[0].classList.contains('disabled')) {
-        alert('Вам нужно выбрать один из вариантов ответа');
+        alert('Вам необхідно обрати один з варіантів відповіді');
     } else {
         randomQuestion();
         enableOptions();
